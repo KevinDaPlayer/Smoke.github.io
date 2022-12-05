@@ -259,3 +259,40 @@ body{
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
+.slider_container:hover span {
+  width: 100%;
+  -webkit-transform:scaleY(1);
+      -ms-transform:scaleY(1);
+          transform:scaleY(1);
+}
+.slider_container:hover div {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+section.left h1 {
+  font-size: 3rem;
+}
+
+section.left p {
+  font-size: 1.7rem;
+}
+
+section.table {
+  padding: 0rem 0rem;
+}
+main section.table table {
+  border-collapse: collapse;
+}
+section.table table tr {
+  border-bottom: 2px solid gray;
+  transition: 0.2s ease;
+}
+section.table table tr td {
+  padding: 2rem;
+}
+section.table table tr:hover {
+  background-color: #fc0000b0;
+}
+.active {
+  color:rgb(255, 255, 208);
+}
